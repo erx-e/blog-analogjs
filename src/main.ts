@@ -4,7 +4,8 @@ import { provideFileRouter } from '@analogjs/router';
 
 import { AppComponent } from './app/app.component';
 import { mainProviders } from './main.providers';
+import { provideContent, withMarkdownRenderer } from '@analogjs/content';
 
 bootstrapApplication(AppComponent, {
-  providers: [provideFileRouter(), ...mainProviders],
+  providers: [provideFileRouter(), provideContent(withMarkdownRenderer()), ...mainProviders],
 });

@@ -14,6 +14,7 @@
     "test": "ng test"
   },
   "dependencies": {
+    "@analogjs/content": "^0.1.8",
     "@analogjs/router": "latest",
     "@angular/animations": "^15.0.0",
     "@angular/common": "^15.0.0",
@@ -25,6 +26,9 @@
     "@angular/platform-server": "^15.0.0",
     "@angular/router": "^15.0.0",
     "@nrwl/angular": "^15.7.0",
+    "front-matter": "^4.0.2",
+    "marked": "^4.2.12",
+    "prismjs": "^1.29.0",
     "rxjs": "~7.5.6",
     "tslib": "^2.4.0",
     "zone.js": "~0.11.8"
@@ -35,8 +39,8 @@
     "@angular/cli": "~15.0.0",
     "@angular/compiler-cli": "^15.0.0",
     "@nrwl/vite": "^15.7.0",
-    "nx": "^15.7.0",
     "jsdom": "^20.0.0",
+    "nx": "^15.7.0",
     "typescript": "~4.8.4",
     "vite": "^4.0.3",
     "vitest": "^0.25.8"
